@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dnanmskmax;
+})();
 })();
 </script>
 ```
@@ -189,6 +191,7 @@ var v = dnanmskmax.ndarray( N, x, 2, 1, mask, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanmskmax@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mask;
 var x;
@@ -214,6 +217,7 @@ console.log( mask );
 var v = dnanmskmax( x.length, x, 1, mask, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -311,23 +315,23 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dnanmskmax/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax/tree/umd
+[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd
+[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats-base-dnanmskmin/tree/umd
+[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats-base-dnanmskmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmskmax]: https://github.com/stdlib-js/stats-base-nanmskmax/tree/umd
+[@stdlib/stats/base/nanmskmax]: https://github.com/stdlib-js/stats-base-nanmskmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats-base-snanmskmax/tree/umd
+[@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats-base-snanmskmax/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
