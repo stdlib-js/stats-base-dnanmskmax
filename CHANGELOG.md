@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-06-04)
+
+<section class="features">
+
+### Features
+
+-   [`58ab526`](https://github.com/stdlib-js/stdlib/commit/58ab526f16ad76ec0ef3eaf609ddba153e7b5e03) - add C ndarray interface and refactor implementation for `stats/base/dnanmskmax` [(#7197)](https://github.com/stdlib-js/stdlib/pull/7197)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`58ab526`](https://github.com/stdlib-js/stdlib/commit/58ab526f16ad76ec0ef3eaf609ddba153e7b5e03) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskmax` [(#7197)](https://github.com/stdlib-js/stdlib/pull/7197) _(by Gururaj Gurram, Athan Reines)_
 -   [`87d0fae`](https://github.com/stdlib-js/stdlib/commit/87d0faeb87ce6a1190289605dbed97d168d3d46e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`24e0082`](https://github.com/stdlib-js/stdlib/commit/24e008292432d2094eeb72dc3b912de1e5265e57) - **refactor:** update `stats/base/dnanmskmax` native addon from C++ to C [(#4160)](https://github.com/stdlib-js/stdlib/pull/4160) _(by Vivek Maurya, Athan Reines)_
@@ -30,10 +41,11 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Gururaj Gurram
 -   Philipp Burckhardt
 -   Vivek Maurya
 
