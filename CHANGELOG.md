@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-04)
+## Unreleased (2025-06-05)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`c33ab55`](https://github.com/stdlib-js/stdlib/commit/c33ab55a3516b9037f377b62aa76c50a80b2ea2e) - **docs:** fix missing include _(by Athan Reines)_
 -   [`58ab526`](https://github.com/stdlib-js/stdlib/commit/58ab526f16ad76ec0ef3eaf609ddba153e7b5e03) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskmax` [(#7197)](https://github.com/stdlib-js/stdlib/pull/7197) _(by Gururaj Gurram, Athan Reines)_
 -   [`87d0fae`](https://github.com/stdlib-js/stdlib/commit/87d0faeb87ce6a1190289605dbed97d168d3d46e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
